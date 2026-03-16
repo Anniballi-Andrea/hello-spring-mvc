@@ -13,4 +13,14 @@ public class HomeController {
     public String home() {
         return "index";
     }
+
+    @GetMapping("/features")
+    public String features() {
+        return "features";
+    }
+
+    @GetMapping("/profilo")
+    public String profilo() {
+        return "profilo";
+    }
 }
